@@ -1,3 +1,5 @@
 files:
   - source: '*.properties'
-    translation: '%original_path%/%file_name%_%locale_with_underscore%_.%file_extension%'
+    ignore:
+      - '*_*.properties'
+    translation: '%original_path%/%file_name%_%locale_with_underscore%.%file_extension%'

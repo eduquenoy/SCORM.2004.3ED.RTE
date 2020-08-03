@@ -2,4 +2,4 @@ files:
   - source: '*.properties'
     ignore:
       - '*_*.properties'
-    translation: '%original_path%/%file_name%_%locale_with_underscore%.%file_extension%'
+    translation: '%original_path%/%file_name%_%two_letters_code%.%file_extension%'
